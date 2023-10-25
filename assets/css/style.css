@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: ##e4ffe4;
-    --color-heading: #006600;
-    --color-base: #008100;
-    --color-base2: #001f00;
-    --color-brand: #001f00;
-    --color-brand2: ##00a900;
+    --color-body: #ffffff;
+    --color-heading: #00009a;
+    --color-base: #000080;
+    --color-base2: #00004d;
+    --color-brand: #0000fe;
+    --color-brand2: #4d4dff;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
