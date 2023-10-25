@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #ffffff;
-    --color-heading: ##eaeaff;
+    --color-body: #eaeaff;
+    --color-heading: #c3c3ff;
     --color-base: #000080;
     --color-base2: #00004d;
     --color-brand: #0000fe;
