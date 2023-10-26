@@ -68,7 +68,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up"><span class="text-brand">CYBERSECURITY PROFESSIONAL </span> AND SOFTWARE ENGINEER</h1>
+                        <h1 class="display-4 fw-bold" data-aos="fade-up"> <span id="element"></span></h1>
+<!--                         <h1 class="display-4 fw-bold" data-aos="fade-up"><span class="text-brand">CYBERSECURITY PROFESSIONAL </span> AND SOFTWARE ENGINEER</h1> -->
 <!--                         <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
                         <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hi! Thank you for visiting my page. I am Hanna, And I am a dynamic professional with a unique blend of technical expertise and analytical thinking, offering a powerful fusion of security acumen and development proficiency. With a proven track record in incident response and conducting comprehensive cybersecurity assessments, I excel in fortifying business resilience against evolving cyber threats while driving innovation and strategic growth.</p>
                         <div data-aos="fade-up" data-aos-delay="600">
@@ -98,7 +99,7 @@
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
-                                <i class="fal fa-shield-check"></i>
+                                <i class="las la-shield-alt"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Cybersecurity Assessments</h5>
                             <p>I can perform a cybersecurity assessment and ensure your company's cybersecurity policies meet Industry Standards. Standards I work with includes ISO, NIST, CIS and OWASP.</p>
@@ -109,7 +110,7 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
-                                <i class="fas fa-users-cog"></i>
+                                <i class="las la-atom"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Cybersecurity Awareness Campaigns</h5>
                             <p>I offer tailored awareness campaigns that equip individuals and organizations with the knowledge and tools needed to safeguard against evolving cyber threats. These campaigns encompass comprehensive training, practical tips, and real-world scenarios to instill a culture of proactive online protection. By focusing on areas such as phishing prevention, secure password management, and incident response, my services empower clients to navigate the digital landscape with confidence and resilience.</p>
@@ -120,10 +121,10 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
-                                <i class="fas fa-code"></i>
+                                <i class="las la-laptop-code"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Websites</h5>
-                            <p>MWith a focus on clean design and user-friendly interfaces, I aim to deliver a digital space that resonates with you or your audience. From concept to execution, I work diligently to bring your ideas to life, ensuring a website that speaks volumes about your brand or message.</p>
+                            <h5 class="mt-4 mb-2">Web Development</h5>
+                            <p>With a focus on clean design and user-friendly interfaces, I aim to deliver a digital space that resonates with you or your audience. From concept to execution, I work diligently to bring your ideas to life, ensuring a website that speaks volumes about your brand or message.</p>
                             <!-- <a href="#" class="link-custom">Read More</a> -->
                         </div>
                     </div>
@@ -141,7 +142,7 @@
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">WORK</h6>
-                        <h1>My Recent Projects</h1>
+                        <h1>My Recent Projects - [UNDER CONSTRUCTION]</h1>
                     </div>
                 </div>
 
@@ -364,7 +365,7 @@
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">BLOG</h6>
-                        <h1>My BLog Posts</h1>
+                        <h1>My BLog Posts - [UNDER CONSTRUCTION]</h1>
                     </div>
                 </div>
 
@@ -479,8 +480,8 @@
 
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h6 class="text-brand">CONTACT</h6>
-                        <h1>Interested in working together? Let's talk
+                        <h6 class="text-brand">CONTACT - [UNDER CONSTRUCTION]</h6>
+                        <h1>I'm always excited about collaboration opportunities, feel free to connect!
                         </h1>
                     </div>
 
@@ -530,13 +531,25 @@
 
     </div>
     <!-- //CONTENT WRAPPER -->
-
-
-
+    
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/vendor/typed.js/typed.umd.js"></script>
+
+    <span id="element"></span>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Cybersecurity Professional', 'Software Engineer', 'Adventurer'],
+            typeSpeed: 150,
+            backSpeed: 200,
+            loop: true
+    });
+  </script>
+</body>
 </body>
 
 </html>
