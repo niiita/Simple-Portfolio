@@ -489,19 +489,20 @@
                         <form action="https://api.web3forms.com/submit" method="POST"class="row g-lg-3 gy-3">
                             <input type="hidden" name="access_key" value="3cb6e087-02ca-43b5-90d2-c01be18edff3">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name">
+                                <input type="text" name="Name" class="form-control" placeholder="Enter your name">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <input type="email" name="Email" class="form-control" placeholder="Enter your email">
                             </div>
                             <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject">
+                                <input type="text" name="Subject" class="form-control" placeholder="Enter subject">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                <textarea name="Message" rows="4" class="form-control" placeholder="Enter your message"></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
                                 <div class="h-captcha" data-captcha="true"></div>
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                                 <button type="submit" class="btn btn-brand">Contact me</button>
                             </div>
                         </form>
